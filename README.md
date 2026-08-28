@@ -11,3 +11,6 @@
 <br>
 
  # survey instrument
+1. Meaning- A survey instruments is a tool used to collect information from people for reaserch<br>
+2.Types of Question- It can include multiple-choices,yes/no,rating -scale,and open-ended question<br>
+3.Reliability- The instuments should give consistent result<br> 
