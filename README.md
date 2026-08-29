@@ -26,3 +26,17 @@
 1.Data analysis   - Organize and analyze the collected information<br>
 2.Data collection - Collect information through surveys,interviews,observations,ect<br>
 3.Review and edit - Check the report for errors and make improvement<br>
+<br>
+
+# Meeting notes
+1.Key discussion points - Write the main ideas discussed <br>
+2.Meeting venue/platform – Classroom, lab, Google Meet, ect<br>
+3.Agenda – Main topics planned for discussion.<br>
+4.Discussion points – Important ideas, suggestions, and issues discussed.<br>
+5.Decisions made – Final conclusions or decisions agreed upon by the team.<br>
+6.Tasks assigned – What each member needs to do.<br>
+7.Deadlines – Due dates for completing assigned tasks<br>.
+8.Problems or challenges – Any technical, financial, or time-related issues identified<br>
+9.Next steps – What the team will work on after the meeting.<br>
+10.Next meeting – Date/time of the next meeting, if decided.<br>
+<br>
