@@ -19,9 +19,9 @@
 <hr>
 
 ## 📖 — References
-#### 1.meaning   - a reference is information about the sources used in a research work or assignments<br>
-#### 2.purpose   -It gives credit to the original author or sources<br>
-#### 3.Reference - all sources cited in the research should be included in the reference list<br>
+###  ➤meaning   - a reference is information about the sources used in a research work or assignments<br>
+####   *purpose   -It gives credit to the original author or sources<br>
+####   *Reference - all sources cited in the research should be included in the reference list<br>
 <br>
 
 ##  🗓️ Research Timeline ⏳
