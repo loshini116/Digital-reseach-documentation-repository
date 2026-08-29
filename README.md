@@ -5,32 +5,32 @@
 3.comparison  -It compares the findings and opinions of different reseaches<br>
 <br>
 
-# 📝 —  Research Proposal
+## 📝 —  Research Proposal
 *1.Introduction   – Gives the background and context of the study.<br>
 2.Data Analysis  – Explains how the collected data will be analyzed.<br>
 3.References     – Lists the books, articles, websites, and other sources used.<br>
 <br>
 
- # 📋 Survey Instruments 
+ ## 📋 Survey Instruments 
 1. Meaning          - A survey instruments is a tool used to collect information from people for reaserch<br>
 2.Types of Question - It can include multiple-choices,yes/no,rating -scale,and open-ended question<br>
 3.Reliability       - The instuments should give consistent result<br> 
 <br>
 <hr>
 
-# 📖 — References
+## 📖 — References
 1.meaning   - a reference is information about the sources used in a research work or assignments<br>
 2.purpose   -It gives credit to the original author or sources<br>
 3.Reference - all sources cited in the research should be included in the reference list<br>
 <br>
 
-#  🗓️ Research Timeline ⏳
+##  🗓️ Research Timeline ⏳
 1.Data analysis   - Organize and analyze the collected information<br>
 2.Data collection - Collect information through surveys,interviews,observations,ect<br>
 3.Review and edit - Check the report for errors and make improvement<br>
 <br>
 
-# 📝 Meeting Notes 🤝
+## 📝 Meeting Notes 🤝
 *Key discussion points - Write the main ideas discussed <br>
 *Meeting venue/platform – Classroom, lab, Google Meet, ect<br>
 *Agenda – Main topics planned for discussion.<br>
@@ -45,7 +45,7 @@
 <br>
 
 
-# 📖 README Documentation 💻
+## 📖 README Documentation 💻
 <b>A README is the main document that explains your project and helps others understand, install, and use it.</b><br>
 1.Requriments       -Mention the software, tools,or technologies need<br>
 2.Installation      -Explain how to install or set up the project<br>
