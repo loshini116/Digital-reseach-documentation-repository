@@ -40,3 +40,10 @@
 9.Next steps – What the team will work on after the meeting.<br>
 10.Next meeting – Date/time of the next meeting, if decided.<br>
 <br>
+
+# README documentation
+A README is the main document that explains your project and helps others understand, install, and use it.<br>
+1.Requriments -Mention the software, tools,or technologies need<br>
+2.Installation -Explain how to install or set up the project<br>
+3.Contributors -Mention the people who worked on the project<br>
+4.Project structure -Explain the main files and folders<br>
