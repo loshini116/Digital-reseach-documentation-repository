@@ -43,6 +43,7 @@
 *Next meeting – Date/time of the next meeting, if decided.<br>
 <br>
 
+
 # 📖 README Documentation 💻
 <b>A README is the main document that explains your project and helps others understand, install, and use it.</b><br>
 1.Requriments       -Mention the software, tools,or technologies need<br>
