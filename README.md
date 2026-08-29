@@ -6,9 +6,9 @@
 <br>
 
 ## 📝 —  Research Proposal
-#### ➤Introduction   – Gives the background and context of the study.<br>
-#### ➤Data Analysis  – Explains how the collected data will be analyzed.<br>
-#### ➤References     – Lists the books, articles, websites, and other sources used.<br>
+###  ➤Introduction   – Gives the background and context of the study.<br>
+####  *Data Analysis  – Explains how the collected data will be analyzed.<br>
+####  *References     – Lists the books, articles, websites, and other sources used.<br>
 <br>
 
  ## 📋 Survey Instruments 
