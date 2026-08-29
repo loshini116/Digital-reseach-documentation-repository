@@ -37,7 +37,7 @@
 #### *Discussion points – Important ideas, suggestions, and issues discussed.<br>
 #### *Decisions made – Final conclusions or decisions agreed upon by the team.<br>
 #### *Tasks assigned – What each member needs to do.<br>
-####   *Deadlines – Due dates for completing assigned tasks<br>.
+####   *Deadlines – Due dates for completing assigned tasks<br>
 ####   *Problems or challenges – Any technical, financial, or time-related issues identified<br>
 ####   *Next steps – What the team will work on after the meeting.<br>
 ####   *Next meeting – Date/time of the next meeting, if decided.<br>
