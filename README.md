@@ -1,25 +1,28 @@
 # Literature review 
-1.Meaning – A literature review is a summary and analysis of previous research, studies, books, and articles related to a particular topic.<br>
-2.purpose -It helps to understand what has already been studied about the topic<br>
-3.comparison-It compares the findings and opinions of different reseaches<br>
+1.Meaning     – A literature review is a summary and analysis of previous research, studies, books, and articles related to a particular topic.<br>
+2.purpose     -It helps to understand what has already been studied about the topic<br>
+3.comparison  -It compares the findings and opinions of different reseaches<br>
 <br>
 
 # Research proposal
-1.Introduction – Gives the background and context of the study.<br>
+1.Introduction  – Gives the background and context of the study.<br>
 2.Data Analysis – Explains how the collected data will be analyzed.<br>
-3.References – Lists the books, articles, websites, and other sources used.<br>
+3.References    – Lists the books, articles, websites, and other sources used.<br>
 <br>
 
  # survey instrument
-1. Meaning- A survey instruments is a tool used to collect information from people for reaserch<br>
-2.Types of Question- It can include multiple-choices,yes/no,rating -scale,and open-ended question<br>
-3.Reliability- The instuments should give consistent result<br> 
+1. Meaning          - A survey instruments is a tool used to collect information from people for reaserch<br>
+2.Types of Question - It can include multiple-choices,yes/no,rating -scale,and open-ended question<br>
+3.Reliability       - The instuments should give consistent result<br> 
 <br>
 
 # Reference
-1.meaning- a reference is information about the sources used in a research work or assignments<br>
-2.purpose-It gives credit to the original author or sources<br>
-3.Reference- all sources cited in the research should be included in the reference list<br>
+1.meaning   - a reference is information about the sources used in a research work or assignments<br>
+2.purpose   -It gives credit to the original author or sources<br>
+3.Reference - all sources cited in the research should be included in the reference list<br>
 <br>
 
 # Reaserch timeline
+1.Data analysis   - Organize and analyze the collected information<br>
+2.Data collection - Collect information through surveys,interviews,observations,ect<br>
+3.Review and edit - Check the report for errors and make improvement<br>
