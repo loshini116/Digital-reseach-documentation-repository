@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Documentation Repository</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+        background: #f4f7fb;
+        color: #263238;
+    }
+
+    header {
+        background: linear-gradient(135deg, #4527a0, #1565c0);
+        color: white;
+        padding: 25px 8%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 9px 14px;
+        border-radius: 20px;
+        background: rgba(255,255,255,0.15);
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        background: #ffca28;
+        color: #222;
+    }
+
+    .hero {
+        padding: 80px 8%;
+        text-align: center;
+        color: white;
+        background:
+        linear-gradient(rgba(69,39,160,.9),rgba(21,101,192,.9)),
+        linear-gradient(45deg,#7e57c2,#42a5f5);
+    }
+
+    .hero h2 {
+        font-size: 48px;
+        margin-bottom: 18px;
+    }
+
+    .hero p {
+        font-size: 19px;
+        max-width: 750px;
+        margin: auto;
+        line-height: 1.7;
+    }
+
+    .container {
+        width: 84%;
+        margin: 55px auto;
+    }
+
+    .section {
+        background: white;
+        padding: 35px;
+        margin-bottom: 35px;
+        border-radius: 18px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        border-left: 7px solid #5e35b1;
+    }
+
+    .section h2 {
+        color: #4527a0;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .section h3 {
+        color: #1565c0;
+        margin: 20px 0 10px;
+    }
+
+    p {
+        line-height: 1.8;
+        margin-bottom: 12px;
+    }
+
+    ul {
+        padding-left: 25px;
+        line-height: 2;
+    }
+
+    /* Cards */
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+        gap: 20px;
+        margin-top: 25px;
+    }
+
+    .card {
+        padding: 25px;
+        border-radius: 15px;
+        color: white;
+        min-height: 160px;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-7px);
+    }
+
+    .purple { background: linear-gradient(135deg,#7b1fa2,#512da8); }
+    .blue { background: linear-gradient(135deg,#1976d2,#0288d1); }
+    .green { background: linear-gradient(135deg,#00897b,#43a047); }
+    .orange { background: linear-gradient(135deg,#ef6c00,#ff9800); }
+
+    /* Timeline */
+
+    .timeline {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .timeline-item {
+        padding: 20px 25px;
+        margin: 20px 0;
+        background: #f3e5f5;
+        border-left: 5px solid #8e24aa;
+        border-radius: 10px;
+    }
+
+    .timeline-item strong {
+        color: #6a1b9a;
+    }
+
+    /* Table */
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    th {
+        background: #4527a0;
+        color: white;
+        padding: 15px;
+        text-align: left;
+    }
+
+    td {
+        padding: 14px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tr:hover {
+        background: #f3f0ff;
+    }
+
+    /* Survey */
+
+    .survey-box {
+        background: #e3f2fd;
+        padding: 25px;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        margin: 15px 0 7px;
+        font-weight: bold;
+        color: #1565c0;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #bbb;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    textarea {
+        min-height: 100px;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 13px 25px;
+        background: linear-gradient(135deg,#4527a0,#1565c0);
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background: #ff9800;
+    }
+
+    /* Reference */
+
+    .reference {
+        background: #fff8e1;
+        padding: 18px;
+        margin: 12px 0;
+        border-left: 5px solid #ffb300;
+        border-radius: 8px;
+    }
+
+    /* Meeting Notes */
+
+    .meeting {
+        background: #e8f5e9;
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 12px;
+        border-left: 5px solid #43a047;
+    }
+
+    /* README */
+
+    pre {
+        background: #263238;
+        color: #80cbc4;
+        padding: 25px;
+        border-radius: 12px;
+        overflow-x: auto;
+        line-height: 1.7;
+    }
+
+    footer {
+        background: #263238;
+        color: white;
+        text-align: center;
+        padding: 35px;
+        margin-top: 60px;
+    }
+
+    @media(max-width:700px) {
+        .hero h2 {
+            font-size: 32px;
+        }
+
+        .container {
+            width: 92%;
+        }
+
+        .section {
+            padding: 22px;
+        }
+
+        th, td {
+            font-size: 13px;
+            padding: 9px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Research Documentation Repository</h1>
+
+    <nav>
+        <a href="#literature">Literature Review</a>
+        <a href="#proposal">Research Proposal</a>
+        <a href="#survey">Survey Instruments</a>
+        <a href="#references">References</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#meetings">Meeting Notes</a>
+        <a href="#readme">README</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <h2>Digital Research Documentation</h2>
+    <p>
+        A colourful and organized platform for managing literature reviews,
+        research proposals, survey instruments, references, timelines,
+        meeting notes and project documentation.
+    </p>
+</section>
+
+
+<div class="container">
+
+    <!-- Literature Review -->
+
+    <section class="section" id="literature">
+        <h2>📖 Literature Review</h2>
+
+        <p>
+            A literature review is a systematic study of existing research,
+            academic papers, books, journals and other scholarly sources
+            related to a research topic.
+        </p>
+
+        <h3>Purpose</h3>
+
+        <ul>
+            <li>Understand existing research and theories.</li>
+            <li>Identify important findings from previous studies.</li>
+            <li>Compare different approaches and methodologies.</li>
+            <li>Identify gaps in existing research.</li>
+            <li>Provide a foundation for the proposed research.</li>
+        </ul>
+
+        <div class="cards">
+            <div class="card purple">
+                <h3>Existing Research</h3>
+                <p>Review previous studies and established knowledge.</p>
+            </div>
+
+            <div class="card blue">
+                <h3>Research Gap</h3>
+                <p>Identify problems that have not been adequately addressed.</p>
+            </div>
+
+            <div class="card green">
+                <h3>Critical Analysis</h3>
+                <p>Compare findings, methods and conclusions.</p>
+            </div>
+
+            <div class="card orange">
+                <h3>Research Direction</h3>
+                <p>Use previous knowledge to guide the new study.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Research Proposal -->
+
+    <section class="section" id="proposal">
+        <h2>📝 Research Proposal</h2>
+
+        <h3>Title</h3>
+        <p>
+            <strong>Development of a Digital Research Documentation Repository</strong>
+        </p>
+
+        <h3>Problem Statement</h3>
+        <p>
+            Researchers often manage academic documents using disconnected
+            files and folders. This can make document organization, searching,
+            sharing and tracking difficult.
+        </p>
+
+        <h3>Objectives</h3>
+
+        <ul>
+            <li>Develop a centralized research documentation platform.</li>
+            <li>Provide organized storage for research materials.</li>
+            <li>Enable quick searching and retrieval of documents.</li>
+            <li>Maintain references and research records.</li>
+            <li>Improve collaboration and documentation management.</li>
+        </ul>
+
+        <h3>Proposed Methodology</h3>
+
+        <p>
+            The project will follow a structured research and development
+            process involving literature review, requirement collection,
+            system design, implementation, testing and evaluation.
+        </p>
+    </section>
+
+
+    <!-- Survey Instruments -->
+
+    <section class="section" id="survey">
+        <h2>📊 Survey Instruments</h2>
+
+        <p>
+            Survey instruments are tools used to collect information from
+            participants. The following sample questionnaire can be used to
+            evaluate requirements for the repository.
+        </p>
+
+        <div class="survey-box">
+
+            <label>1. How do you currently store research documents?</label>
+            <select>
+                <option>Local computer</option>
+                <option>Cloud storage</option>
+                <option>Paper files</option>
+                <option>Multiple platforms</option>
+            </select>
+
+            <label>2. How difficult is it to find old research documents?</label>
+            <select>
+                <option>Very Easy</option>
+                <option>Easy</option>
+                <option>Moderate</option>
+                <option>Difficult</option>
+                <option>Very Difficult</option>
+            </select>
+
+            <label>3. Which feature is most important?</label>
+            <select>
+                <option>Document Search</option>
+                <option>Document Upload</option>
+                <option>Document Categories</option>
+                <option>Reference Management</option>
+                <option>User Dashboard</option>
+            </select>
+
+            <label>4. Additional Suggestions</label>
+            <textarea placeholder="Enter your suggestions..."></textarea>
+
+            <button onclick="submitSurvey()">Submit Survey</button>
+
+        </div>
+    </section>
+
+
+    <!-- References -->
+
+    <section class="section" id="references">
+        <h2>📚 References</h2>
+
+        <div class="reference">
+            <strong>Reference 1:</strong>
+            Academic research methodology and literature review resources.
+        </div>
+
+        <div class="reference">
+            <strong>Reference 2:</strong>
+            Digital libraries and institutional repository studies.
+        </div>
+
+        <div class="reference">
+            <strong>Reference 3:</strong>
+            Research data management and digital documentation practices.
+        </div>
+
+        <div class="reference">
+            <strong>Reference 4:</strong>
+            Information retrieval and document management research.
+        </div>
+    </section>
+
+
+    <!-- Research Timeline -->
+
+    <section class="section" id="timeline">
+        <h2>🗓️ Research Timeline</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <strong>Phase 1 — Week 1-2</strong>
+                <p>Topic selection and initial literature review.</p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>Phase 2 — Week 3-4</strong>
+                <p>Research proposal and requirement analysis.</p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>Phase 3 — Week 5-6</strong>
+                <p>Survey design and data collection.</p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>Phase 4 — Week 7-9</strong>
+                <p>System design and website development.</p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>Phase 5 — Week 10-11</strong>
+                <p>Testing, evaluation and corrections.</p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>Phase 6 — Week 12</strong>
+                <p>Final documentation and project presentation.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Meeting Notes -->
+
+    <section class="section" id="meetings">
+        <h2>🤝 Meeting Notes</h2>
+
+        <div class="meeting">
+            <h3>Meeting 01</h3>
+            <p><strong>Topic:</strong> Project topic selection</p>
+            <p><strong>Discussion:</strong> Discussed the purpose and scope of the research repository.</p>
+            <p><strong>Decision:</strong> Develop a centralized digital documentation system.</p>
+        </div>
+
+        <div class="meeting">
+            <h3>Meeting 02</h3>
+            <p><strong>Topic:</strong> Requirement Analysis</p>
+            <p><strong>Discussion:</strong> Identified search, upload, categorization and reference features.</p>
+            <p><strong>Decision:</strong> Create a simple and user-friendly interface.</p>
+        </div>
+
+        <div class="meeting">
+            <h3>Meeting 03</h3>
+            <p><strong>Topic:</strong> Website Development</p>
+            <p><strong>Discussion:</strong> Reviewed page structure, design and documentation sections.</p>
+            <p><strong>Decision:</strong> Continue implementation and testing.</p>
+        </div>
+    </section>
+
+
+    <!-- README -->
+
+    <section class="section" id="readme">
+        <h2>💻 README Documentation</h2>
+
+        <pre>
+# Research Documentation Repository
+
+## Project Overview
+A web-based platform for organizing and managing
+research documentation.
+
+## Main Sections
+- Literature Review
+- Research Proposal
+- Survey Instruments
+- References
+- Research Timeline
+- Meeting Notes
+- Project Documentation
+
+## Technologies
+HTML
+CSS
+JavaScript
+
+## Features
+- Responsive interface
+- Colourful dashboard
+- Organized research sections
+- Survey form
+- Research timeline
+- Meeting documentation
+- Reference management
+
+## Installation
+
+1. Download the project files.
+2. Open the HTML file in a browser.
+3. No external server is required for the basic version.
+
+## Future Improvements
+- User login
+- Database integration
+- PDF upload
+- Advanced search
+- Admin dashboard
+- Cloud storage
+        </pre>
+    </section>
+
+</div>
+
+
+<footer>
+    <h3>📘 Research Documentation Repository</h3>
+    <p>Organize • Document • Research • Discover</p>
+</footer>
+
+
+<script>
+
+function submitSurvey() {
+    alert("Thank you! Your survey response has been recorded.");
+}
+
+</script>
+
+</body>
+</html>
