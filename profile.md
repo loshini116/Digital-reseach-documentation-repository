@@ -1,6 +1,6 @@
 # 📚 Digital Research Documentation
 
-> **A Modern Digital Repository for Research, Knowledge & Innovation**
+ **A Modern Digital Repository for Research, Knowledge & Innovation**
 
 ---
 
