@@ -1,0 +1,14 @@
+📝 Meeting Notes
+📅 Date & Time – Record when the meeting took place.
+👥 Participants – Mention the members who attended the meeting.
+🎯 Meeting Objective – State the main purpose or goal of the meeting.
+💬 Key Discussions – Summarize the important topics and ideas discussed.
+💡 Suggestions & Ideas – Note down useful suggestions shared by participants.
+✅ Decisions Made – Clearly mention the final decisions agreed upon.
+📌 Action Items – List the tasks that need to be completed after the meeting.
+👤 Task Owners – Identify the person responsible for each task.
+⏰ Deadlines – Mention the expected completion date for each action item.
+🔄 Follow-up – Include details about the next meeting or future discussion.
+📊 Progress Updates – Record important updates related to ongoing work.
+📎 Additional Notes – Add any other relevant information or reminders.
+
